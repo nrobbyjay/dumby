@@ -132,23 +132,14 @@ UI_REQUIREMENTS.md
 
 ## File responsibilities
 
-index.html
-UI structure. Editable.
-
-style.css
-Styling. Editable.
-
-app.js
-UI logic. Editable.
-
-api.js
-Generated API client. Must not be edited manually.
-
-AI_CONTEXT.md
-Hard rules AI must obey. Must not be edited.
-
-UI_REQUIREMENTS.md
-Raw project intent captured verbatim. Must not be edited.
+| File | Purpose | Editable |
+|-----|--------|----------|
+| index.html | UI structure | Yes |
+| style.css | Styling | Yes |
+| app.js | UI logic | Yes |
+| api.js | Generated API client | No |
+| AI_CONTEXT.md | Hard rules AI must obey | No |
+| UI_REQUIREMENTS.md | Raw project intent captured verbatim | No |
 
 Generated files are authoritative and designed to survive regeneration.
 
