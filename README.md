@@ -112,8 +112,9 @@ This command:
 
 Resulting output:
 
+```bash
 dist/index.html
-
+```
 ---
 
 ## Generated files
